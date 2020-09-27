@@ -1,6 +1,11 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//     const js_accordion = document.getElementById('js-menu_switch');
-//     js_accordion.addEventListener('click', (e) => {
-//         js_accordion.parentNode.classList.toggle('is-hide');
-//     })
-// })
+document.addEventListener("DOMContentLoaded", () => {
+    const $open = document.getElementsByClassName('open')[0];
+    const $close = document.getElementsByClassName('close')[0];
+    const $body = document.getElementsByTagName('body')[0];
+    $open.addEventListener('click', () => {
+        $body.classList.add('is-active');
+    });
+    $close.addEventListener('click', () => {
+        $body.classList.remove('is-active');
+    })
+})
