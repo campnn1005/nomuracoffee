@@ -363,37 +363,6 @@ input[type="checkbox"]:checked ~ .back {
     cursor: pointer;
 }
 
-  /* .navs-wrapper-sp {
-      width: 100%;
-      height: 50px;
-      background-color: #e1d3b3;
-      display: block;
-  }
-
-  .sp_menu_body {
-      display: block;
-  }
-
-  .navs-wrapper-sp.is-hide .sp_menu_switch {
-    width: 36px;
-    height: 36px;
-    background: url('coffee-img/nomuracoffee-sp_03.png') no-repeat;
-    cursor: pointer;
-  }
-
-  .navs-wrapper-sp.is-hide .sp_menu_body {
-      display: none;
-  }
-
-  .sp_menu_switch {
-      width: 36px;
-      height: 36px;
-      background: url('coffee-img/nomuracoffee-spmenu_03.png') no-repeat;
-      cursor: pointer; 
-  } */
-
-
-
 .sp-home-img {
     padding-top: 25px;
 }
